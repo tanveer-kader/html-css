@@ -56,13 +56,15 @@ body {
   margin-bottom: 20px;
 }
 
-.description {
+/* .description {
   margin-bottom: 10px;
-}
+} */
 
 .more-info:link,
 .more-info:visited {
   color: black;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .more-info:hover,
@@ -74,7 +76,7 @@ body {
 
 .color-options {
   list-style: none;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .color-options li {
