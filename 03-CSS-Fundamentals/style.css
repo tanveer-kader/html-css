@@ -9,6 +9,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
 .container {
@@ -16,6 +17,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
+  /* position: relative; */
 }
 
 .main-header {
@@ -25,7 +27,8 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* should not use fixed height to any element */
+  /* height: 80px; */
 }
 
 nav {
@@ -38,6 +41,7 @@ article {
 
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 
 aside {
@@ -49,6 +53,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* Smaller elements */
 
 h1,
 h2,
@@ -83,6 +89,8 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* will display paragraph as a single line */
+  /* display: inline; */
 }
 
 ul,
@@ -94,6 +102,8 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* will display lists side by side */
+  /* display: inline; */
 }
 
 li:last-child {
@@ -177,9 +187,72 @@ a:active {
 
 /* must maintain the order as LVHA */
 
+/* image is inline block element */
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  /* act as block element without braking line */
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 50px;
+  right: 50px;
+}
+
+/* pseudo elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+h2::first-letter {
+  /* font-size: 80px; */
+}
+
+/* adjacent sibling selector*/
+h3 + p::first-line {
+  /* color: red; */
+}
+
+h2 {
+  /* background-color: green; */
+  position: relative;
+}
+
+/* for the absolute positioning before and after acts same */
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
 }
 
 /* Resolving Conflicts */
