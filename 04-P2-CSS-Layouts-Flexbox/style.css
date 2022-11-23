@@ -19,7 +19,7 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
-  /* position: relative; */
+  position: relative;
 }
 
 .main-header {
@@ -69,6 +69,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -132,7 +133,7 @@ li:last-child {
   font-weight: bold;
 }
 
-.related-posts {
+.related {
   list-style: none;
   margin-left: 0;
 }
@@ -201,7 +202,6 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
   /* act as block element without braking line */
   display: inline-block;
 }
@@ -280,6 +280,8 @@ nav p {
 } */
 
 /* FLOATS */
+/*  
+--------------------
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -287,6 +289,7 @@ nav p {
 
 .author {
   /* padding-left: 80px; */
+/* 
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -301,11 +304,13 @@ nav {
 }
 
 /* older method */
+/*  
 .clear {
   clear: both;
 }
 
 /* older optimised method */
+/* 
 .clearfix::after {
   clear: both;
   content: "";
@@ -324,4 +329,69 @@ aside {
 
 footer {
   clear: both;
+} 
+---------------------
+*/
+
+/* FLEXBOX */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  /* adjust height of elements || could also done by individual element using align-self */
+  align-items: flex-start;
+  gap: 75px;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  /*
+    Defaults
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+  */
+  flex: 0 0 300px;
 }
