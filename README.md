@@ -4,8 +4,8 @@ Deep Dive into a Proper Design Sense <br>
 
 ## Final Project
 * Omnifood [See Project](https://omnifood-meals-ai.netlify.app/)
-  > ***HTML, CSS***| Fully Responsive, Minimum Redundant Code, Optimised for browsers and mobiles
+  > ***HTML, CSS*** | fully responsive, minimum redundant Code, optimized for browsers and mobiles
 
-## Projects
+## Other Projects
 * Chair Shop [see!](https://vocal-eclair-488959.netlify.app/)
-  > ***grid, container*** | Not Responsive
+  > ***grid, container*** | not responsive
