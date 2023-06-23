@@ -11,7 +11,7 @@ Deep Dive into a Proper Design Sense <br>
   >***grid, flex*** | not responsive
 * Chair Shop [see!](https://vocal-eclair-488959.netlify.app/)
   > ***grid, container*** | not responsive
-* ### Components
+* Components
   - Accordion [see!](https://astounding-cranachan-7887d7.netlify.app)
   - Carousel [see!](https://gentle-brioche-64167a.netlify.app)
   - Hero [see!](https://magenta-selkie-f7f2a7.netlify.app)
