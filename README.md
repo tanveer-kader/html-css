@@ -5,3 +5,4 @@ See Project: https://omnifood-meals-ai.netlify.app/
 
 ## Projects
 * Chair Shop [see!](https://vocal-eclair-488959.netlify.app/)
+  > ***grid, container*** | Not Responsive
