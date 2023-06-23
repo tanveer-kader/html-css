@@ -3,7 +3,7 @@ Clean Coding <br>
 Deep Dive into a Proper Design Sense <br>
 
 ## Final Project
-* Omnifood [See Project](https://omnifood-meals-ai.netlify.app/)
+* Omnifood [visit!](https://omnifood-meals-ai.netlify.app/)
   > ***HTML, CSS, JavaScript*** | fully responsive, minimum redundant code, optimized for browsers and mobiles
 
 ## Other Projects
