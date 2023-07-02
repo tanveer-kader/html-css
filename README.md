@@ -1,3 +1,4 @@
+![cover](cover/landscape.png)
 # html-css
 Clean Coding <br>
 Deep Dive into a Proper Design Sense <br>
@@ -16,4 +17,3 @@ Deep Dive into a Proper Design Sense <br>
   - Carousel [see!](https://gentle-brioche-64167a.netlify.app)
   - Hero [see!](https://magenta-selkie-f7f2a7.netlify.app)
   - Email App Layout [see!](https://celebrated-youtiao-e519c7.netlify.app)
-![cover](cover/landscape.png)
